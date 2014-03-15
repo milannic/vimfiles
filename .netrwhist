@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/milannic/course/aa/hw3/6'
+let g:netrw_dirhist_2='/home/milannic/course/os/hw3'
+let g:netrw_dirhist_3='/home/milannic/Dropbox'
+let g:netrw_dirhist_4='/home/milannic/course/aa/hw3/5'
+let g:netrw_dirhist_5='/home/milannic/.vim'
+let g:netrw_dirhist_6='/home/milannic/myxtern_compilation/test'
+let g:netrw_dirhist_7='/home/milannic/install-tl-20130907'
+let g:netrw_dirhist_8='/home/milannic/.vim/autoload/zencoding'
+let g:netrw_dirhist_9='/home/milannic/.vim/autoload/vital'
