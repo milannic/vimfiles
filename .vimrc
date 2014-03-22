@@ -20,7 +20,7 @@ let g:languagetool_jar='$HOME/languagetool-2.3/languagetool-commandline.jar'
 let b:classpath = '.'
 set autoindent
 set smartindent
-set expandtab
+"set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -50,6 +50,8 @@ set ofu=syntaxcomplete#Complete
 "autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 "autocmd FileType c set omnifunc=ccomplete#Complete
 "autocmd FileType cpp set omnifunc=cppcomplete#Complete
+autocmd FileType python set expandtab 
+autocmd BufEnter *.py set ai sw=4 ts=4 sta et fo=croql
 autocmd FileType java set omnifunc=javacomplete#Complete
 autocmd FileType java call javacomplete#SetSourcePath('.')
 autocmd FileType make setlocal noexpandtab
