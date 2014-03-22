@@ -20,6 +20,7 @@ let g:languagetool_jar='$HOME/languagetool-2.3/languagetool-commandline.jar'
 let b:classpath = '.'
 set autoindent
 set smartindent
+set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -51,6 +52,7 @@ set ofu=syntaxcomplete#Complete
 "autocmd FileType cpp set omnifunc=cppcomplete#Complete
 autocmd FileType java set omnifunc=javacomplete#Complete
 autocmd FileType java call javacomplete#SetSourcePath('.')
+autocmd FileType make setlocal noexpandtab
 "autocmd FileType java call javacomplete#SetClassPath(b:classpath)
 :setlocal completefunc=javacomplete#CompleteParamsInfo 
 autocmd FileType java call java_parser#InitParser(getline('^', '$'))
